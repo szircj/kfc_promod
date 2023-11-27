@@ -1,4 +1,4 @@
-// Made by HaKai for KFC Mod
+// Made by szir for KFC Mod
 
 init()
 {
