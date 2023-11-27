@@ -1,4 +1,4 @@
-// Provided by HaKai for KFC promod
+// Provided by szir for KFC promod
 // Do not thread it elsewhere as it is threaded in globallogic correctly
 
 init()
@@ -396,7 +396,7 @@ PlayerVote()
 			if (self.votechoice == 7)
 				self.votechoice = 0;
 
-			//self iprintln("Erre szavazt·l: ^2" + level.mapcandidate[self.votechoice]["mapname"]);
+			//self iprintln("Erre szavazt√°l: ^2" + level.mapcandidate[self.votechoice]["mapname"]);
 			self.vote_indicator.y = 70 + self.votechoice * 17;			
 			self.vote_indicator.color = colors[self.votechoice];
 			self playLocalSound("ui_mp_timer_countdown");
