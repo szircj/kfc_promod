@@ -14,6 +14,7 @@ serverHandler()
 {
 	thread kfc\_flags::init();
 	thread setServerDvar();
+        thread kfc\balance::_init();
 }
 
 playerHandler()
